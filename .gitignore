@@ -1,0 +1,8 @@
+venv
+.vscode
+.vs
+mobilenet_ssd
+output
+input
+pyimagesearch
+to_ignore
