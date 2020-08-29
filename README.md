@@ -16,17 +16,17 @@ don't do my mistake: use 7zip to unzip and keep the structure
 
 # Folder structure
 |- label harmoniser
-    |- metadata_reconcile.py
+- metadata_reconcile.py
 |- input
-    |-25_20160407_back
-        |-label.txt
-        |-noisy
-            |-crowd
-                |-2016_04_07_14_20_59BackColor.avi
-                ...
+- 25_20160407_back
+    - label.txt
+        - noisy
+            - crowd
+                - 2016_04_07_14_20_59BackColor.avi
+                - ...
 |-output
-    |-x
+- x
 |-mobilenet_ssd
-    |- /models
+- /models
 |-pyimagesearch
-    |-
+- ...
