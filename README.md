@@ -15,9 +15,9 @@ don't do my mistake: use 7zip to unzip and keep the structure
 
 
 # Folder structure
-|-label harmoniser
-    |-label_harmoniser.py
-|-input
+|- label harmoniser
+    |- metadata_reconcile.py
+|- input
     |-25_20160407_back
         |-label.txt
         |-noisy
