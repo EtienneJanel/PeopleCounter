@@ -6,3 +6,7 @@ output
 input
 pyimagesearch
 to_ignore
+files.csv
+labels.csv
+reconcile.csv
+test_label.txt
