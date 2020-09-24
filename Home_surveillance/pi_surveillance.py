@@ -14,6 +14,12 @@ import json
 import time
 import cv2
 
+# construct the argument parser and parse the arguments
+ap = argparse.ArgumentParser()
+ap.add_argument("-c", "--conf", required=True,
+                help="path to the JSON configuration file")
+args = vars(ap.parse_args())
+
 # load the configuration
 conf = json.load(open(args["conf"]))
 
